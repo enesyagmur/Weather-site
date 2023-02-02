@@ -17,7 +17,6 @@ main{
     align-items: center;
     text-align: center;
     padding-top: 100px;
-    color: white;
     background-color: rgba(0, 0, 0, .5);
     height: 100vh;
 }
@@ -29,9 +28,9 @@ button{
 }
 .city{
     background: transparent;
-    border: gray;
-    border-bottom: 4px solid black;
-
+    color: white;
+    border: none;
+    border-bottom: 2px solid black;
     width: 300px;
     text-align: center;
     margin-top: 10px;
@@ -40,6 +39,7 @@ button{
 
 h1,h2,h3{
     text-shadow: 1px 3px rgba(0, 0, 0, 0.5);
+    color: white;
 
 }
 p{
