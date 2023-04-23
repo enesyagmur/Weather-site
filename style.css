@@ -1,57 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-   background-image: url(city1.jpg);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 100vh;
-}
-
-main{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 100px;
-    background-color: rgba(0, 0, 0, .5);
-    height: 100vh;
-}
-button{
-    width: 50px;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin: 10px;
-}
-.city{
-    background: transparent;
-    color: white;
-    border: none;
-    border-bottom: 2px solid black;
-    width: 300px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
+body {
+  background-image: url(city1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
 }
 
-h1,h2,h3{
-    text-shadow: 1px 3px rgba(0, 0, 0, 0.5);
-    color: white;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+button {
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 10px;
+}
+.city {
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 300px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
 
+h1,
+h2,
+h3 {
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.5);
+  color: white;
 }
-p{
-    font-size: 70px;
-    color: black;
+p {
+  font-size: 100px;
+  color: black;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 70px;
 }
-h2{
-    font-size: 35px;
+h2 {
+  font-size: 55px;
 }
-h3{
-    font-size: 15px;
+h3 {
+  font-size: 35px;
 }
